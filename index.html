@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jihoon Ham: Index</title>
+    <style>
+        :root {
+            --bg-color: #f4f4f4;
+            --text-color: #111;
+            --font-display: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            --font-mono: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 80px 40px;
+            font-family: var(--font-display);
+        }
+
+        header {
+            margin-bottom: 120px;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            max-width: 300px;
+        }
+
+        .response-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .response-number {
+            margin-bottom: 60px; 
+        }
+
+        .response-number a {
+            text-decoration: none;
+            color: #111;
+            font-size: 2.5rem; 
+            font-weight: 300; 
+            line-height: 1.1;
+            display: inline-block;
+            transition: opacity 0.3s;
+        }
+
+        .response-number a:hover {
+            opacity: 0.5; 
+            font-style: italic;
+        }
+
+        .info {
+            display: block;
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 10px;
+        }
+
+
+        .offset-0 { 
+            margin-left: 0; 
+        }
+        .offset-1 { 
+            margin-left: 15vw; 
+        }
+        .offset-2 { 
+            margin-left: 35vw; 
+        } 
+        .offset-3 { 
+            margin-left: 5vw; 
+        }
+
+
+        .footer-note {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+        }
+
+        @media (max-width: 768px) {
+            .response-number a { font-size: 1.8rem; }
+            .offset-1, .offset-2, .offset-3 { margin-left: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        PROJECT 01: CTC-2101<br>
+        RISD WINTERSESSION 2026<br>
+        STATUS: OPEN
+    </header>
+
+    <ul class="response-list">
+        
+        <li class="response-number offset-1">
+            <a href="response-01.html">
+                The Garden &<br>The Cloud
+            </a>
+            <span class="info">01 — Reading Schwulst</span>
+        </li>
+
+        <li class="response-number offset-2">
+            <a href="response-02.html">
+                The Handmade<br>Web
+            </a>
+            <span class="info">02 — Reading Carpenter</span>
+        </li>
+
+        <li class="response-number offset-3">
+            <a href="#">
+                Response 3
+            </a>
+            <span class="info">03 — Coming Soon</span>
+        </li>
+
+    </ul>
+
+    <div class="footer-note">
+        Updated: Jan 13
+    </div>
+
+</body>
+</html>
