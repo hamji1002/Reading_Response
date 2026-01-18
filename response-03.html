@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Response 01</title>
+    <style>
+        :root {
+            --bg-color: #f4f4f4;
+            --text-color: #222;
+            --font-body: 'Georgia', serif;
+            --font-ui: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-body);
+        }
+
+        .return {
+            position: fixed;
+            bottom: 40px;
+            left: 40px;
+            font-family: var(--font-ui);
+            font-size: 0.9rem;
+            z-index: 100;
+        }
+
+        .return a {
+            text-decoration: none;
+            color: #000;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom 0.2s;
+        }
+        
+        .return a:hover {
+            border-bottom: 1px solid #000;
+        }
+
+        main {
+            width: 90%;
+            max-width: 600px;
+            margin-left: 35%; 
+            padding-top: 150px; 
+            padding-bottom: 150px;
+        }
+
+        h1 {
+            font-weight: normal;
+            font-size: 2.5rem;
+            line-height: 1.1;
+            margin-bottom: 3rem;
+            position: relative;
+            left: -40px; 
+        }
+
+        .info {
+            font-family: var(--font-ui);
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+
+
+        hr {
+            border: 0;
+            border-top: 1px solid #000;
+            width: 50px;
+            margin: 60px 0;
+        }
+
+
+        @media (max-width: 800px) {
+            main {
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 80px;
+                width: 85%;
+            }
+            .return {
+                position: static;
+                margin: 40px 0 0 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="return">
+        <a href="index.html">← Index</a>
+    </div>
+
+    <main>
+        <span class="info">RESPONSE 03/Choi</span>
+        
+        <h1>Not Quite OFF</h1>
+
+        <p>Reading this text, I was reminded of Jerod’s comment about how he built a computer by ordering components and assembling them himself, yet still didn’t really understand how it worked. I had a similar experience when I assembled a computer piece by piece—motherboard, CPU, RAM, power supply—carefully following manuals and compatibility lists. The machine turned on and functioned as expected, but what stayed with me was how little the process explained itself. Despite having “built” the device and understanding what each components do, I still couldn’t explain what computation was doing inside it—how the system decided, in electrical terms, what counted as an instruction, a value, an action. The assembly produced functionality, but it didn’t produce understanding. In hindsight, that gap feels less like personal ignorance and more like what Hello World keeps returning to: the difference between getting a system to run and actually understanding the logic that makes it run.
+
+The text helped me see why assembling a computer from parts can remain conceptually shallow. Modular components are designed to interlock without revealing the logic that makes them meaningful. In that sense, the contemporary computer is not only a technical object but also a cultural one: it is built to be usable without being legible. I recognize a similar gap in CAD workflows. Beginner-friendly tools can produce quick results precisely because they hide constraints—units, tolerances, underlying geometry, dependencies—behind a smooth interface. More advanced workflows don’t simply add features; they expose structure. You gain control, but you also inherit responsibility: you start feeling the thresholds where a model breaks, where an assumption becomes an error, where a “clean” surface is actually unstable. Interfaces, standardized modules, and “user-friendly” design create stability by hiding thresholds—between signal and noise, on and off, success and failure. Choi’s insistence on building a computer from scratch reframes learning as contact with those thresholds. The point is not craft for its own sake, but a pedagogy that makes the seams visible again. When you work closer to electricity and basic logic(even with binary if possible!) failure becomes ordinary, and that ordinariness is instructive: it forces you to confront what the computer must simplify, ignore, or discretize in order to operate.
+
+ 
+
+One of the ideas that stayed with me most strongly was the tension between binary systems and the continuity of the real world. I was reminded of an installation where I tried to treat light as a binary condition: illuminated or not, visible or not. The premise assumed a clean switch—on/off—triggered by whether someone crossed a threshold line, but the space refused that clarity. Light leaked around edges, bounced off surfaces, and lingered as peripheral glow, so the work was never fully “on” or fully “off.” Viewers also became part of the circuit: bodies introduced shadows, redirected glare, and changed what was legible simply by moving or pausing. That friction made the point tangible: the system needed a yes/no decision, but the room kept producing “almost.” Instead of being an error to correct, the “almost” became the most revealing part of the work—because it showed exactly where the system had to force a cut.
+
+This tension becomes especially legible in the reading’s discussion of the visual parallels between circuits and cities. Under magnification, circuitry starts to resemble urban diagrams and plan drawings: routes, nodes, dense fields, dead ends—an overhead language of organization. I like this comparison because plan drawings do two things at once. They are operational documents meant to coordinate construction and control movement, but they can also detach from building and become an artwork with their own autonomy. A great plan drawing can be visually persuasive even before it becomes spatially real. That persuasiveness matters, because plans are not neutral descriptions; they are decision tools—ways of compressing lived complexity into a legible system.
+
+Coming from Seoul, the city metaphor feels especially immediate to me. Seoul is a place where circulation is constantly visible: subway lines branching and intersecting, transfers that feel like switching layers, and streams of people moving through underground passages and above-ground crossings. Infrastructure is not a distant background; it’s something you feel through timing, congestion, and routing—through the way a day is shaped by systems of flow. While reding, I kept translating motherboard terms into spatial ones—data “buses” as transit corridors, nodes as transfer points, bottlenecks as congestion, thresholds as gates. The city begins to read like a constructed logic of repeated decisions: where movement is permitted, where it is blocked, where it is rerouted, what counts as an efficient path, and what becomes leftover space. But living in Seoul never feels like moving through clean yes/no states. The system is built from discrete choices—gates, turnstiles, signals—yet what you actually experience is continuous negotiation: slowing down, merging, hesitating, and reading crowds in real time.
+
+But the physical architecture that forces those decisions—the gates, the channels, the boundaries—speaks a shared visual language. This is why Peter Halley’s Instant City feels so relevant here. It doesn’t literally diagram a CPU in a technical sense or a plan drawing in an architectural sense but it renders the diagrammatic grammar of control: compartments, hard edges, nested frames, and channel-like bands that suggest routes and separations. The repeated structure—blocks within blocks, boundaries within boundaries—feels like an argument about how control gets rendered as geometry. In that sense, the painting sits comfortably beside circuit layouts and city plans: not because they are identical, but because they rely on the same moves—containment, repetition, and legibility.
+
+ 
+
+At the same time, the reading is careful not to collapse the metaphor into a literal claim that a city is a computer, especially in the last part of the reading, where Shannon Mattern’s critique becomes important. What she resists is the way “smart city” rhetoric reduces urban life to a few computational metaphors—treating data as memory and decision as execution, as if sensing automatically becomes understanding and processing automatically becomes governance. Her alternative is not anti-technology; it’s a wider definition of intelligence. Spatial intelligence, in her framing, is sensory and experiential. It includes knowledge held by crowds and communities, information embedded in facades and stairways, cues carried by plants and surfaces—forms of knowing that don’t always translate cleanly into metrics. Some qualities of cities may be fundamentally resistant to computation: environmental unpredictability, social improvisation, and the part of human thought that remains opaque even to itself. Read alongside this text, the circuit/city analogy becomes most useful not as a claim that cities are computers, but as a way to sharpen what computation can and cannot hold.
+
+ 
+
+Ultimately, I think the reading argues for looking behind the familiar interface. Opening the machine—conceptually and literally—changes the kinds of questions one can ask. Instead of accepting computers as sealed products, you start asking what kinds of computers we want to use, and by extension what kinds of cities we want to live in. That feels directly aligned with this course’s emphasis on making through code. It seems to me that writing HTML, CSS, and JavaScript by hand is not just a means to an aesthetic outcome; it is a way of staying close to structure, where decisions remain visible, reversible and mutable. Even small acts—inspecting source, building a grid without a template, tracing how an interaction is triggered—push against the idea that systems should only be consumed. In that sense, hand-coding isn’t just a technique that I’ll be using for this class; it’s a way of refusing the assumption that systems should remain opaque. It keeps decisions visible, so the system becomes something you can actually read, revise, and question.
+    </main>
+
+</body>
+</html>
